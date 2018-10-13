@@ -18,7 +18,7 @@ body {
     overflow-x: auto;
     overflow-y: scroll;
     padding: 0;
-    background: url(../img/img1.webp);
+    background: url(../img/img.jpg);
     background-size: cover;
     background-attachment: fixed;
 
@@ -282,7 +282,7 @@ h3 {
 }
 
 .autko {
-    background: url(../img/autko.webp);
+    background: url(../img/autko.png);
     width: 200px;
     height: 150px;
     background-repeat: no-repeat;
