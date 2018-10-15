@@ -1,0 +1,76 @@
+a {
+    text-decoration: none;
+}
+
+/* BUTTONS */
+
+.ui-button {
+    padding: 8px 8px;
+    display: inline-block;
+    border-radius: 0.3rem;
+    position: relative;
+
+    transition: 0.2s;
+}
+
+.ui-b-default-alt {
+    background: none;
+    color: #eee;
+    font-weight: 800;
+}
+
+.ui-button-border {
+    width: 0%;
+    border-top: #eee 2px solid;
+    position: absolute;
+
+    right: 0;
+    transition: .3s ease;
+}
+
+.ui-b-default {
+    background: #dcdde1;
+    color: #718093;  
+}
+
+.ui-b-blue {
+    background: #487eb0;
+    color: #f5f6fa;  
+}
+
+.ui-b-black {
+    background: #2f3640;
+    color: #f5f6fa;  
+}
+
+/* BUTTONS PSEUDOCLASSES */
+
+.ui-b-default:hover, .ui-b-default:active { 
+    background: #c5c6ca;
+    color: #2f3640;
+}
+
+.ui-button:hover .ui-button-border, .ui-button:active .ui-button-border { 
+    width: 100%;
+    left: 0;
+    border-top: #ccc 3px solid;
+}
+
+.ui-b-default-alt:hover, .ui-b-default-alt:active { 
+    color: #ccc;
+}
+
+.ui-b-blue:hover, .ui-b-blue:active { 
+    background: #3e6f97;
+}
+
+.ui-b-black:hover, .ui-b-black:active { 
+    background: #4a5264;
+}
+
+
+
+
+
+
+
