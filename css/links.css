@@ -53,7 +53,7 @@ a {
 .ui-button:hover .ui-button-border, .ui-button:active .ui-button-border { 
     width: 100%;
     left: 0;
-    border-top: #ccc 3px solid;
+    border-top: #ccc 2px solid;
 }
 
 .ui-b-default-alt:hover, .ui-b-default-alt:active { 
