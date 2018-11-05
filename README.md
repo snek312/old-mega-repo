@@ -1,4 +1,4 @@
-# Snek UI v0.8b change log
+# Snek UI v0.8b changes log
 - initial public commit
 - improved visual style of page
 - added second section of main page
