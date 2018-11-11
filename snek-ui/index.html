@@ -24,14 +24,21 @@
     <header class="flex-header flex-box">
         <nav id="id-nav" class="flex-nav flex-box fixed">
             <div class="flex-box">
-                <a href="#">
-                    <div class="doc-logo">
-                        <div class="logo-hover">
-                            <span id="id-logo_text" class="logo-hover--text">go up<span>&utrif;</span></span>
-                        </div>
+                <div class="doc-logo--link flex-box">
+                    <a href="#">
+                        <div class="doc-logo"></div>
+                    </a>
+                    <div id="id-hamburger" class="logo-hover ">
+                        <div class="logo-hamburger "></div>
+                        <div class="logo-hamburger "></div>
                     </div>
-                </a>
-                <ul class="flex-box">
+                </div>
+                <ul id="id-nav_list" class="flex-box doc-nav--list">
+                    <li>
+                        <a class="nav-first-child" href="#">
+                            <div class="ui-list--item item--button">home</div>
+                        </a>
+                    </li>
                     <li>
                         <a href="#docs">
                             <div class="ui-list--item item--button">docs</div>

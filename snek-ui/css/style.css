@@ -105,8 +105,12 @@ footer span {
     margin-right: 10px;
 }
 
+.doc-logo--link {
+    justify-content: center;
+    align-items: center;
+}
+
 .doc-logo {
-    position: relative;
     background: url(../img/snake.svg);
     background-size: 100%;
     background-position: center;
@@ -117,39 +121,48 @@ footer span {
     transition: .5s;
 }
 
+.logo-hamburger {
+    width: 15px;
+    height: 3px;
+    background: #eed;
+    margin-top: 3px;
+    transition: .3s;
+}
+
+.logo-hamburger.top {
+    margin-top: 3px;
+
+    transform: rotate(45deg)
+}
+
+.logo-hamburger.bot {
+    margin-top: -3px;
+
+    transform: rotate(135deg)
+}
+
 .logo-hover {
-    position: absolute;
-    color: #ffffff00;
-    top: -10%;
-    left: -12%;
-    width: 10px;
-    height: 24px;
-    border-radius: 11px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    width: 27px;
+    height: 27px;
     transition: .5s;
 }
 
-.logo-hover--text {
-    position: absolute;
-    width: 90px;
-    top: 0%;
-    left: 35%;
-    font-size: 0.9em;
-    text-transform: capitalize;
+.doc-nav--list {
+    overflow: hidden;
+    width: 0;
+    transition: .3s;
 }
 
-.logo-hover--text>span {
-    font-size: 1.6em;
-}
+.doc-nav--list.clicked {
+    overflow: visible;
+    width: auto;
+    transition: .3s;
 
-.logo-hover:hover {
-    width: 85px;
-    color: #fff;
-    background-color: #9b9b9b41;
-}
-
-.logo-hover:hover .logo-hover-black {
-    color: #222222;
-    transition: .4s;
 }
 
 .doc-version {
@@ -264,8 +277,16 @@ footer span {
     border-bottom: 1px solid #4b4b4b;
     box-shadow: 1px 1px 7px 1px #222222;
     transition: 0.5s;
-
+    height: 30px;
     z-index: 40;
+}
+
+.ui-nav.clicked {
+    height: auto;
+}
+
+.hamburger-black {
+    background: #222222;
 }
 
 .ui-nav-button {
@@ -344,6 +365,15 @@ footer span {
         background: #222222;
     }
 
+    .doc-nav--list {
+        overflow: visible;
+        width: auto;
+    }
+
+    .nav-first-child {
+        display: none;
+    }
+
     .flex-nav>div {
         width: 70%;
         padding: 20px;
@@ -353,29 +383,23 @@ footer span {
     }
 
     .doc-logo {
+        position: relative;
         margin-top: 0;
         width: 40px;
         height: 40px;
         background-size: 95%;
-    }
-
-    .logo-hover--text {
-        top: 11%;
-        left: 35%;
-        font-size: 1.3em;
-    }
-
-    .logo-hover--text>span {
-        font-size: 1.6em;
+        transition: .5s;
     }
 
     .logo-hover {
-        width: 17px;
-        height: 50px;
-    }
-
-    .logo-hover:hover {
-        width: 150px;
+        position: absolute;
+        color: #ffffff00;
+        top: -10%;
+        left: -12%;
+        width: 10px;
+        height: 24px;
+        border-radius: 11px;
+        transition: .5s;
     }
 
     main {
