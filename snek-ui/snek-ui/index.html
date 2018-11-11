@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Snek UI</title>
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns"
+        crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="themes/ui-default.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="shortcut icon" href="img/snake.png" type="image/x-icon">
+
+    <!-- <link rel="stylesheet" href="css/debug_border.css"> -->
+</head>
+
+<body>
+    <header class="flex-header flex-box">
+        <nav id="id-nav" class="flex-nav flex-box fixed">
+            <div class="flex-box">
+                <a href="#">
+                    <div class="doc-logo">
+                        <div class="logo-hover">
+                            <span id="id-logo_text" class="logo-hover--text">go up<span>&utrif;</span></span>
+                        </div>
+                    </div>
+                </a>
+                <ul class="flex-box">
+                    <li>
+                        <a href="#docs">
+                            <div class="ui-list--item item--button">docs</div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#id-themes">
+                            <div class="ui-list--item item--button">themes</div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#contact">
+                            <div class="ui-list--item item--button">contact</div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <div class="header--background flex-header flex-box">
+            <a href="">
+                <div class="doc-version">0.8b</div>
+            </a>
+            <h2>snek UI</h2>
+            <h4>Develop your websites using beautiful themes</h4>
+            <div class="header-div flex-box">
+                <a href="#void">
+                    <div class="ui-button button--border border-fill">get started</div>
+                </a>
+                <a href="#void">
+                    <div class="ui-button button--border">what's new</div>
+                </a>
+            </div>
+        </div>
+    </header>
+    <main class="flex-box">
+        <section id="get-started" class="section-first flex-box">
+            <div>
+                <img src="./img/mobile-devices-2017980_640.png" alt="laptop" srcset="">
+                <h2>design beautiful websites quickly</h2>
+                <p>Develop your UI once, then deploy with the same code everywhere.</p>
+            </div>
+        </section>
+
+        <section id="id-themes" class="section-theme flex-box">
+            <div class="theme-container flex-box">
+                <i class="fas fa-paint-roller"></i>
+                <h2>theme selector</h2>
+                <p>Chose your favorite theme from our many beautiful pre-created presets!</p>
+            </div>
+            <div class="ui-separator"></div>
+            <div class="theme-container flex-box">
+                <div class="container-box flex-box">
+                    <div class="container-box--top">
+                        <!-- <a id="id-dropdown" class="doc-dropdown" href="#void">
+                            <div class="ui-button button-color">select theme <span id=""></span> &dtrif;</div>
+                            <ul id="id-dropdown_list" class="dropdown-content">
+                                <li><a href="#void">theme1</a></li>
+                                <li><a href="#void">theme2</a></li>
+                                <li><a href="#void">theme3</a></li>
+                            </ul>
+                        </a> -->
+                        <!-- <div class="relative">
+                            <div class="ui-button button-color ui-dropdown">
+                                <span>select theme<span class="dropdown--icon"></span> &dtrif;
+                                </span>
+                                <div class="dropdown--content">
+                                    <a href="#void">
+                                        <div>option 1</div>
+                                    </a>
+                                    <a href="#void">
+                                        <div>option 2</div>
+                                    </a>
+                                    <a href="#void">
+                                        <div>option 3</div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div> -->
+
+                        <div>
+                            <div id="id-dropdown" class="ui-dropdown ui-button button-color ">
+                                <span>select theme <span id="id-drop_icon" class="dropdown--icon">&dtrif;</span>
+                                </span>
+                                <div id="id-dropdown_list" class="dropdown--content">
+                                    <a href="#void">option</a>
+                                    <a href="#void">option</a>
+                                    <a href="#void">option</a>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="container-box--bot">
+                        <a href="#void">
+                            <div class="ui-button button-color">basic anchor</div>
+                        </a>
+                        <a href="#void">
+                            <div class="ui-button button-color">basic anchor</div>
+                        </a>
+                        <a href="#void">
+                            <div class="ui-button button-color--alt">basic anchor</div>
+                        </a>
+                        <a href="#void">
+                            <div class="ui-button button-color--dark">basic anchor</div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="flex-box">
+        <div>
+            <span>Icons made by <a href="http://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/"
+                    title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/"
+                    title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a>
+            </span>
+        </div>
+        <span>2018 &copy; snekUI</span>
+    </footer>
+    <script src="js/js.js"></script>
+</body>
+
+</html>
