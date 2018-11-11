@@ -272,25 +272,15 @@ footer span {
     background: #ccc;
 }
 
+.dropdown--active {
+    background: #ccc;
+}
+
 /* //// */
 
 /* OTHER RULES */
 
-/* TO DO  */
-.relative {
-    position: relative;
-}
 
-/* // */
-
-/* TO DO  */
-.ui-dropdown {
-    position: absolute;
-    left: 40px;
-    top: -60px;
-}
-
-/* // */
 
 .fixed {
     position: fixed;
@@ -345,14 +335,7 @@ footer span {
 
 @media screen and (min-width: 769px) {
 
-    /* TO DO  */
-    .ui-dropdown {
-        position: absolute;
-        left: 90px;
-        top: -90px;
-    }
 
-    /* // */
 
     .header--background {
         height: 800px;

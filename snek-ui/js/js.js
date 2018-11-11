@@ -20,14 +20,17 @@
         }
     })
 
-    // document.getElementById('id-dropdown').addEventListener("click", function () {
-    //     const element = document.getElementById('id-dropdown_list').classList;
-    //     if (element.contains('dropdown-active')) {
-    //         // document.addEventListener("click", function () {
-    //         element.remove('dropdown-active');
-    //         // })
-    //     } else {
-    //         element.add('dropdown-active');
-    //     }
-    // })
+    document.getElementById('id-dropdown').addEventListener("click", function () {
+        const element = document.getElementById('id-dropdown_list').classList;
+        const elementIcon = document.getElementById('id-drop_icon').classList;
+
+        if (element.contains('dropdown--active')) {
+            element.remove('dropdown--active');
+            elementIcon.remove('dropdown--icon-active');
+        } else {
+            element.add('dropdown--active');
+            elementIcon.add('dropdown--icon-active');
+        }
+
+    })
 })()
