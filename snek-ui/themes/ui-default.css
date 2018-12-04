@@ -113,6 +113,7 @@ button {
 .item--button:active {
     text-decoration: none;
     background: #999;
+    color: #fff;
 }
 
 .ui-list--item-border {
@@ -197,7 +198,6 @@ button {
     transition: none;
     margin-bottom: 30px;
 }
-
 
 .ui-dropdown:hover .dropdown--content {
     background: #ddd;

@@ -58,7 +58,7 @@
 
     })
 
-    document.getElementById('id-dropdown').addEventListener("click", function () {
+    document.getElementById('id-dropdown').addEventListener("click", function (e) {
         const element = document.getElementById('id-dropdown_list').classList;
         const elementIcon = document.getElementById('id-drop_icon').classList;
 
@@ -69,8 +69,15 @@
             element.add('dropdown--active');
             elementIcon.add('dropdown--icon-active');
         }
-
     })
+
+    if (document.getElementById('id-dropdown_list').classList.contains('dropdown--active')) {
+        document.body.addEventListener('click', function () {
+            const element = document.getElementById('id-dropdown_list').classList;
+            element.remove('dropdown--active');
+            elementIcon.remove('dropdown--icon-active');
+        })
+    }
 
     const elementDrop = document.getElementById('id-dropdown_list').classList;
     const elementIcon = document.getElementById('id-drop_icon').classList;
