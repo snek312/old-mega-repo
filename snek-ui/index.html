@@ -11,13 +11,13 @@
         crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
 
-    <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="themes/ui-default.css">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="lib/styles/reset.css">
+    <link rel="stylesheet" href="lib/themes/ui-default.css">
+    <link rel="stylesheet" href="src/styles/index/document.css">
 
-    <link rel="shortcut icon" href="img/snake.png" type="image/x-icon">
+    <link rel="shortcut icon" href="src/img/snake.png" type="image/x-icon">
 
-    <!-- <link rel="stylesheet" href="css/debug_border.css"> -->
+    <!-- <link rel="stylesheet" href="lib/styles/debug_border.css"> -->
 </head>
 
 <body>
@@ -40,7 +40,7 @@
                         </a>
                     </li>
                     <li>
-                        <a href="#docs">
+                        <a href="pages/docs.html">
                             <div class="ui-list--item item--button">docs</div>
                         </a>
                     </li>
@@ -63,15 +63,17 @@
         </nav>
         <div class="header--background flex-header flex-box">
             <a href="https://github.com/snek312/snek312.github.io/tree/master/snek-ui">
-                <div class="doc-version">0.0.9</div>
+                <div class="doc-version">0.1.0</div>
             </a>
+            <div class="doc-snek"></div>
+
             <h2>snek UI</h2>
-            <h4>Develop your websites using beautiful themes</h4>
+            <h4>Fast and lightweight library for modern website building</h4>
             <div class="header-div flex-box">
-                <a href="#void">
+                <a href="pages/docs.html">
                     <div class="ui-button button--border border-fill">get started</div>
                 </a>
-                <a href="https://github.com/snek312/snek312.github.io/blob/master/snek-ui/changelog/0.8c.md">
+                <a href="pages/new.html">
                     <div class="ui-button button--border">what's new</div>
                 </a>
             </div>
@@ -80,7 +82,7 @@
     <main class="flex-box">
         <section id="get-started" class="section-first flex-box">
             <div>
-                <img src="./img/mobile-devices-2017980_640.png" alt="laptop" srcset="">
+                <img src="././src/img/mobile-devices-2017980_640.png" alt="laptop" srcset="">
                 <h2>design beautiful websites quickly</h2>
                 <p>Develop your UI once, then deploy with the same code everywhere.</p>
             </div>
@@ -145,12 +147,10 @@
         <section class="section-contact flex-box">
             <i class="fas fa-sign-in-alt"></i>
             <h2>Install SnekUI now</h2>
-            <span>Fast and lightweight framework for easy building any web page, includes BEM naming style, pre-done
-                themes and
-                support for custom
-                definitions.</span>
+            <span>Fast and lightweight library for easy building any website you want, includes BEM naming style,
+                pre-done themes and support for custom definitions.</span>
             <span></span>
-            <a href="#void">
+            <a href="pages/docs.html">
                 <div class="ui-button button-color--alt">get started now! <i class="fas fa-sign-in-alt"></i> </div>
             </a>
         </section>
@@ -184,7 +184,7 @@
                         <a href="#">GitHub repo</a>
                     </li>
                     <li>
-                        <a href="#">0.0.x docs</a>
+                        <a href="pages/docs.html">0.1.0 docs</a>
                     </li>
                 </ul>
                 <ul>
@@ -214,7 +214,7 @@
         </div>
         <span>2018 &copy; snekUI</span>
     </footer>
-    <script src="js/js.js"></script>
+    <script src="src/scripts/index/js.js"></script>
 </body>
 
 </html>
