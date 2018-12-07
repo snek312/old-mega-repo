@@ -211,6 +211,7 @@ footer span {
         width: 95%;
         border-top: 1px solid #555555;
         padding: 7px 10px;
+        list-style: none;
     }
 
     .doc-navbar>ul>h4 {
