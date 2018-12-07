@@ -8,13 +8,13 @@
         for (let i = 0; i < menuDB.length; i++) {
             for (let j = 0; j < menuDB[i].length; j++) {
                 if (title.includes(menuDB[i][j])) {
-                    huj(menuDB[i][j]);
+                    checkDBTitle(menuDB[i][j]);
                 }
             }
         }
     }
 
-    function huj(title) {
+    function checkDBTitle(title) {
         for (let I = 0; I < database.length; I++) {
             if (title === database[I].id) {
                 const DB = database[I].array;
@@ -40,9 +40,7 @@
                     MainHeaderCreator('id-main_header', DB);
                     break;
                 case id === 'article':
-                    // HeaderCreator('id-test', DB, i);
-                    // ParagraphCreator('id-test', DB, i);
-                    ArticleCreator('id-test', DB, i);
+                    ArticleCreator('id-section', DB, i);
                     break;
             }
         }
@@ -73,42 +71,36 @@
 
             switch (true) {
                 case typeof (database[i].content[j]) === "string":
-                    const spanElement = document.createElement('p');
-                    spanElement.innerHTML = database[i].content[j];
-                    groupElement.appendChild(spanElement);
-
-                    element.appendChild(groupElement);
+                    // const spanElement = document.createElement('p');
+                    // spanElement.innerHTML = database[i].content[j];
+                    // groupElement.appendChild(spanElement);
+                    // element.appendChild(groupElement);
+                    ParagraphElementCreator(groupElement, element, database, i, j);
                     break;
                 case database[i].content[j].id === 'example':
-                    const divElement = document.createElement('div');
-                    divElement.classList.add('ui-message')
-                    divElement.innerHTML = database[i].content[j].content;
-                    element.appendChild(divElement);
+                    // const divElement = document.createElement('div');
+                    // divElement.classList.add('ui-message')
+                    // divElement.innerHTML = database[i].content[j].content;
+                    // element.appendChild(divElement);
+                    MessageElementCreator(element, database, i, j);
                     break;
             }
         }
     }
 
-    // function ParagraphCreator(id, database, i) {
+    function ParagraphElementCreator(group, element, database, i, j) {
+        const spanElement = document.createElement('p');
+        spanElement.innerHTML = database[i].content[j];
+        group.appendChild(spanElement);
+        element.appendChild(group);
+    }
 
-    //     for (j = 0; j < database[i].content.length; j++) {
-
-    //         switch (true) {
-    //             case typeof (database[i].content[j]) === "string":
-    //                 const spanElement = document.createElement('p');
-    //                 spanElement.innerHTML = database[i].content[j];
-    //                 document.getElementById(id).appendChild(spanElement);
-    //                 break;
-    //             case database[i].content[j].id === 'example':
-    //                 const divElement = document.createElement('div');
-    //                 divElement.innerHTML = database[i].content[j].content;
-    //                 document.getElementById(id).appendChild(divElement);
-    //                 break;
-    //         }
-    //     }
-    // }
-
-
+    function MessageElementCreator(element, database, i, j) {
+        const divElement = document.createElement('div');
+        divElement.classList.add('ui-message')
+        divElement.innerHTML = database[i].content[j].content;
+        element.appendChild(divElement);
+    }
 
     function elementInit(id, array) {
         for (let i = 0; i < array.length; i++) {
@@ -159,7 +151,6 @@
             headerElement.appendChild(h4Element);
         }
 
-        // document.getElementById(id).appendChild(headerElement);
         element.appendChild(headerElement);
 
     }
@@ -170,9 +161,7 @@
         const divElement = document.createElement('div');
 
         divElement.innerHTML = array[i];
-        // divElement.classList.add('doc-nav_li');
         checkExist(anchorElement, divElement, array, i);
-        // anchorElement.setAttribute('href', array[i] + '.html');
 
         anchorElement.appendChild(divElement);
         listItemElement.appendChild(anchorElement);
