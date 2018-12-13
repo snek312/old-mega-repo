@@ -14,7 +14,7 @@ const startDB = [{
             'witam2',
             'zium',
             {
-                id: "example",
+                id: "message",
                 content: 'First example message.'
             }
         ]
@@ -26,11 +26,11 @@ const startDB = [{
             'lorem lorem w dupe worem',
             'Two examples bellow.',
             {
-                id: "example",
+                id: "message",
                 content: 'Second example message.'
             },
             {
-                id: "example",
+                id: "message",
                 content: 'Created another example message. I hope you liked it. Lorem lorem lorems'
             }
         ]
@@ -38,7 +38,7 @@ const startDB = [{
 ]
 const newDB = [{
         id: "header",
-        header: "Whats new in " + version,
+        header: "What's new in " + version,
         subtext: ""
     },
     {
@@ -54,9 +54,18 @@ const newDB = [{
 
 
             {
-                id: "example",
+                id: "message",
                 content: 'Library is still in very early development stage, so please issue any bugs you find! '
             }
+        ]
+    },
+    {
+        id: "article",
+        header: "0.1.0a",
+        content: [
+            '- added message element to ui',
+            '- button and message docs updated',
+            '- js cleaning'
         ]
     },
     {
@@ -69,7 +78,7 @@ const newDB = [{
             '- add new theme',
 
             {
-                id: "example",
+                id: "message",
                 content: 'Navbar is working, shadded out links are not availble at this time. Those names are going to change in future.'
             }
         ]
@@ -83,14 +92,38 @@ const buttonDB = [{
     {
         id: "article",
         header: "Button",
-        // subtext: "How to create simple button",
         content: [
-            'lorem lorem w dupe worem',
-            'witam2',
+            'A simple button',
             {
                 id: "example",
-                content: 'created content'
+                content: 'basic'
+            },
+            {
+                id: "message",
+                content: '<p>&lt;button class="<strong>button-color ui-button</strong>"&gt;basic&lt;/button&gt;</p>'
             }
+        ]
+    },
+    {
+        id: "article",
+        header: "Alternative buttons",
+        content: [
+            'Buttons can have multiple colours',
+            {
+                id: "example",
+                styles: 'button-color--alt',
+                content: 'alternative'
+            },
+            {
+                id: "example",
+                styles: 'button-color--dark',
+                content: 'dark'
+            },
+            {
+                id: "message",
+                content: '<p> &lt;button class="<strong>button-color button-color--alt ui-button</strong>"&gt;alternative&lt;/button&gt; </p> <p> &lt;button class="<strong>button-color button-color--dark ui-button</strong>"&gt;alternative&lt;/button&gt;</p> ',
+            }
+
         ]
     }
 ]
@@ -98,29 +131,49 @@ const buttonDB = [{
 const containerDB = [{
         id: "header",
         header: "Container",
-        subtext: "How to create simple button"
+        subtext: "How to create container"
     },
     {
         id: "article",
         header: "Container",
-        // subtext: "How to create simple button",
         content: [
-            'lorem lorem w dupe worem',
-            'witam2',
+            'You cant see it, but its here',
             {
-                id: "example",
-                content: 'created content'
+                id: "message",
+                content: 'Something.'
             }
         ]
     }
 ]
-const buttonsArray = ['start', 'new', ]
-const howtouseArray = ['buttojn', 'buttodwa', 'dwa', 'ziu']
-const elementsArray = ['button', 'container', 'divider'];
-const modulesArray = ['dropdown'];
 
-const menuDB = [buttonsArray, howtouseArray, elementsArray, modulesArray];
-
+const messageDB = [{
+        id: "header",
+        header: "Message",
+        subtext: "How to create simple button"
+    },
+    {
+        id: "article",
+        header: "Message",
+        content: [
+            'Simple message',
+            {
+                id: "message",
+                content: '<p>This is an example. <i class="fas fa-exclamation-circle"></i></p>'
+            }
+        ]
+    },
+    {
+        id: "article",
+        header: "Warning",
+        content: [
+            'Warning message',
+            {
+                id: "warning",
+                content: '<p></i>Warning! Site not working properly. Contact somebody! <i class="fas fa-exclamation-triangle"></p>'
+            }
+        ]
+    }
+]
 
 const database = [{
         id: "start",
@@ -137,5 +190,16 @@ const database = [{
     {
         id: "container",
         array: containerDB
+    },
+    {
+        id: "message",
+        array: messageDB
     }
 ];
+
+const buttonsArray = ['start', 'new', ]
+const howtouseArray = ['buttojn', 'buttodwa', 'dwa', 'ziu']
+const elementsArray = ['button', 'container', 'message', 'divider'];
+const modulesArray = ['dropdown'];
+
+const menuDB = [buttonsArray, howtouseArray, elementsArray, modulesArray];

@@ -292,14 +292,25 @@ button {
     transform: rotate(90deg);
 }
 
+/* MESSAGES RULES*/
+
 .ui-message {
-    display: inline-flex;
-    width: 40%;
+    /* display: inline-flex; */
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    min-width: 55%;
     font-size: .95em;
     margin: 15px 10px;
-    padding: 15px 25px;
+    padding: 15px 25px 15px 25px;
     border: 1px solid #c5e2fa;
     border-radius: 3px;
     background: #f4f8fc;
     color: #5ca1da;
+}
+
+.message--warning {
+    background: #fcf4f4;
+    color: #da5c5c;
+    border: 1px solid #fac5c5;
 }

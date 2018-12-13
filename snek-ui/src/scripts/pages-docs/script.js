@@ -67,22 +67,21 @@
 
     function ParagraphCreator(element, database, i) {
         const groupElement = document.createElement('div');
+        groupElement.classList.add('flex-box', 'flex-column');
         for (j = 0; j < database[i].content.length; j++) {
 
             switch (true) {
                 case typeof (database[i].content[j]) === "string":
-                    // const spanElement = document.createElement('p');
-                    // spanElement.innerHTML = database[i].content[j];
-                    // groupElement.appendChild(spanElement);
-                    // element.appendChild(groupElement);
                     ParagraphElementCreator(groupElement, element, database, i, j);
                     break;
                 case database[i].content[j].id === 'example':
-                    // const divElement = document.createElement('div');
-                    // divElement.classList.add('ui-message')
-                    // divElement.innerHTML = database[i].content[j].content;
-                    // element.appendChild(divElement);
+                    ExampleElementCreator(element, database, i, j);
+                    break;
+                case database[i].content[j].id === 'message':
                     MessageElementCreator(element, database, i, j);
+                    break;
+                case database[i].content[j].id === 'warning':
+                    WarningElementCreator(element, database, i, j);
                     break;
             }
         }
@@ -95,9 +94,34 @@
         element.appendChild(group);
     }
 
+    function ExampleElementCreator(element, database, i, j) {
+        let newElement;
+        switch (true) {
+            case database[1].header === 'Button':
+                newElement = document.createElement('button');
+                newElement.classList.add('button-color', database[i].content[j].styles);
+                break;
+            case database[1].header === 'Container':
+                newElement = document.createElement('div');
+                break;
+            default:
+        }
+
+        newElement.classList.add('ui-' + database[1].header.toLowerCase());
+        newElement.innerHTML = database[i].content[j].content;
+        element.appendChild(newElement);
+    }
+
     function MessageElementCreator(element, database, i, j) {
         const divElement = document.createElement('div');
         divElement.classList.add('ui-message')
+        divElement.innerHTML = database[i].content[j].content;
+        element.appendChild(divElement);
+    }
+
+    function WarningElementCreator(element, database, i, j) {
+        const divElement = document.createElement('div');
+        divElement.classList.add('ui-message', 'message--warning');
         divElement.innerHTML = database[i].content[j].content;
         element.appendChild(divElement);
     }

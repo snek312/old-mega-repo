@@ -31,6 +31,11 @@ main>* {
     display: flex;
 }
 
+.flex-column {
+    flex-direction: column;
+
+}
+
 .flex-nav {
     width: 100%;
     justify-content: center;
@@ -179,8 +184,18 @@ footer span {
     font-size: 1.7em;
 }
 
+
+/* // -- // */
+/* // ADDIITIONAL UI RULES // */
+.ui-message {
+    width: 30%;
+    min-width: 70%;
+
+}
+
 /* // -- // */
 
+/* /// --- /// */
 
 /* PC MEDIA RULES */
 @media screen and (min-width: 769px) {
@@ -211,7 +226,6 @@ footer span {
         width: 95%;
         border-top: 1px solid #555555;
         padding: 7px 10px;
-        list-style: none;
     }
 
     .doc-navbar>ul>h4 {
@@ -250,6 +264,12 @@ footer span {
 
     /* // -- // */
 
+    /* // ADDIITIONAL UI RULES // */
+    .ui-message {
+        width: 30%;
+        min-width: 55%;
+    }
 
+    /* // -- // */
 
 }
