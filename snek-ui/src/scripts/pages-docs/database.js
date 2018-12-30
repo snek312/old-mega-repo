@@ -1,4 +1,4 @@
-const version = '0.1.0b';
+const version = '0.1.0c';
 
 const startDB = [{
         id: "header",
