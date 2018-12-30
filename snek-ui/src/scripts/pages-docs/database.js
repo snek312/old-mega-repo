@@ -136,6 +136,16 @@ const newDB = [{
     },
     {
         id: "article",
+        header: "Changes log 0.1.0c",
+        subheader: "Little update",
+        content: [
+            '- 2 simple themes added',
+            '- improved themes selector funcionality',
+        ],
+
+    },
+    {
+        id: "article",
         header: "Changes log 0.1.0b",
         content: [
             '- added mobile version of snek docs',
