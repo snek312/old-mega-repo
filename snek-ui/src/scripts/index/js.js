@@ -37,6 +37,8 @@
         }
     })
 
+
+
     document.getElementById('id-hamburger').addEventListener("click", function () {
         let elements = document.getElementsByClassName('logo-hamburger');
         const element = document.getElementById('id-nav_list').classList;
@@ -88,4 +90,60 @@
             elementIcon.remove('dropdown--icon-active');
         })
     }
+
+    // document.getElementById('id-theme1').addEventListener('click', function () {
+    //     console.log('e');
+    // });
+
+
+    // for (let i = 1; i < 4; i++) {
+    //     themeSelector('id-theme' + i);
+    // }
+
+    // function themeSelector(id) {
+    //     document.getElementById(id).addEventListener('click', function () {
+    //         themeFuncion(id);
+    //     });
+    // }
+
+    // function themeFuncion(id) {
+    //     console.log(id);
+    //     const link = document.createElement('link');
+    //     link.setAttribute('id', 'id-css-themes');
+    //     link.setAttribute('rel', 'stylesheet');
+    //     link.setAttribute('href', 'lib/themes/' + id + '.css');
+
+    //     document.head.appendChild(link);
+    // }
+
+
+    themeSelector();
+    documentStylesCreator(document.createElement('link'), false, 'src/styles/index/document.css');
+
+    function themeSelector() {
+        const link = document.createElement('link');
+        documentStylesCreator(link, 'id-css-themes', 'lib/themes/ui-default.css');
+
+        for (let i = 1; i < 4; i++) {
+            styleSelector('id-theme' + i);
+        }
+
+        function styleSelector(id) {
+            document.getElementById(id).addEventListener('click', function () {
+                link.setAttribute('href', 'lib/themes/' + id + '.css');
+            });
+        }
+    }
+
+    function documentStylesCreator(link, link_id, href) {
+        if (!link_id === false) {
+            link.setAttribute('id', link_id);
+        }
+        link.setAttribute('rel', 'stylesheet');
+        link.setAttribute('href', href);
+
+        document.head.appendChild(link);
+    }
+
+
 })()
