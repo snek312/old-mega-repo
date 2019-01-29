@@ -1,0 +1,16 @@
+{
+    "nodeName": "div",
+    "className": "header",
+    "attributes": {
+        "class": "header",
+        "role": "application"
+    },
+    "children": [{
+        "nodeName": "div",
+        "className": "header__content",
+        "attributes": {
+            "class": "header__content",
+            "ref": "content"
+        }
+    }]
+}
