@@ -1,30 +1,48 @@
 [{
-    "nodeName": "ul",
-    "className": "doc-navlist",
-    "attributes": {
-        "class": "doc-navlist",
-        "role": "application"
+        "nodeName": "div",
+        "className": "logo",
+        "attributes": {
+            "class": "logo"
+        },
+        "children": [{
+            "nodeName": "i",
+            "attributes": {
+                "class": "fas fa-spa"
+            }
+
+        }, {
+            "nodeName": "span",
+            "textContent": "cactus.js"
+
+        }]
     },
-    "children": [{
-        "nodeName": "li",
-        "attributes": {},
+    {
+        "nodeName": "ul",
+        "className": "doc-navlist",
+        "attributes": {
+            "class": "doc-navlist"
+        },
         "children": [{
-            "nodeName": "a",
-            "attributes": {
-                "href": "#"
-            },
-            "textContent": "about"
+            "nodeName": "li",
+            "attributes": {},
+            "children": [{
+                "nodeName": "a",
+                "attributes": {
+                    "href": "#"
+                },
+                "textContent": "about"
+            }]
+        }, {
+            "nodeName": "li",
+            "attributes": {},
+            "children": [{
+                "nodeName": "a",
+                "attributes": {
+                    "href": "#",
+                    "class": "doc-navbar--docs"
+                },
+                "textContent": "docs"
+            }]
         }]
-    }, {
-        "nodeName": "li",
-        "attributes": {},
-        "children": [{
-            "nodeName": "a",
-            "attributes": {
-                "href": "#",
-                "class": "doc-navbar--docs"
-            },
-            "textContent": "docs"
-        }]
-    }]
-}]
+    }
+]

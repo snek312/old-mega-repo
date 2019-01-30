@@ -1,0 +1,32 @@
+[{
+    "nodeName": "header",
+    "className": "doc-main--header",
+    "attributes": {
+        "class": "doc-main--header",
+        "role": "application"
+    },
+    "children": [{
+        "nodeName": "div",
+        "attributes": {
+            "class": "doc-main--header"
+        },
+        "children": [{
+            "nodeName": "a",
+            "attributes": {
+                "href": "#"
+            },
+            "textContent": "about"
+        }]
+    }, {
+        "nodeName": "li",
+        "attributes": {},
+        "children": [{
+            "nodeName": "a",
+            "attributes": {
+                "href": "#",
+                "class": "doc-navbar--docs"
+            },
+            "textContent": "docs"
+        }]
+    }]
+}]
