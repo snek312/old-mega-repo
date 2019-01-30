@@ -1,39 +1,41 @@
 [{
     "nodeName": "ul",
-    "className": "header",
+    "className": "doc-navlist",
     "attributes": {
-        "class": "header",
+        "class": "doc-navlist",
         "role": "application"
     },
     "children": [{
             "nodeName": "li",
-            "className": "header__content",
             "attributes": {},
             "children": [{
                 "nodeName": "a",
                 "attributes": {
                     "href": "#"
                 },
-                "textContent": "witam"
+                "textContent": "home"
             }]
         },
         {
             "nodeName": "li",
-            "className": "header__content",
-            "attributes": {
-                "class": "header__content",
-                "ref": "content"
-            },
-            "textContent": "witam"
-        },
-        {
+            "attributes": {},
+            "children": [{
+                "nodeName": "a",
+                "attributes": {
+                    "href": "#"
+                },
+                "textContent": "about"
+            }]
+        }, {
             "nodeName": "li",
-            "className": "header__content",
-            "attributes": {
-                "class": "header__content",
-                "ref": "content"
-            },
-            "textContent": "witam"
+            "attributes": {},
+            "children": [{
+                "nodeName": "a",
+                "attributes": {
+                    "href": "#"
+                },
+                "textContent": "docs"
+            }]
         }
     ]
 }]
