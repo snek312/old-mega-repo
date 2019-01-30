@@ -1,4 +1,4 @@
-{
+[{
     "nodeName": "div",
     "className": "header",
     "attributes": {
@@ -13,4 +13,4 @@
             "ref": "content"
         }
     }]
-}
+}]
