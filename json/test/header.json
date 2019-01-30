@@ -1,16 +1,36 @@
 [{
-    "nodeName": "div",
+    "nodeName": "ul",
     "className": "header",
     "attributes": {
         "class": "header",
         "role": "application"
     },
     "children": [{
-        "nodeName": "div",
-        "className": "header__content",
-        "attributes": {
-            "class": "header__content",
-            "ref": "content"
+            "nodeName": "li",
+            "className": "header__content",
+            "attributes": {
+                "class": "header__content",
+                "ref": "content"
+            },
+            "textContent": "witam"
+        },
+        {
+            "nodeName": "li",
+            "className": "header__content",
+            "attributes": {
+                "class": "header__content",
+                "ref": "content"
+            },
+            "textContent": "witam"
+        },
+        {
+            "nodeName": "li",
+            "className": "header__content",
+            "attributes": {
+                "class": "header__content",
+                "ref": "content"
+            },
+            "textContent": "witam"
         }
-    }]
+    ]
 }]
