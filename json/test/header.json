@@ -8,11 +8,14 @@
     "children": [{
             "nodeName": "li",
             "className": "header__content",
-            "attributes": {
-                "class": "header__content",
-                "ref": "content"
-            },
-            "textContent": "witam"
+            "attributes": {},
+            "children": [{
+                "nodeName": "a",
+                "attributes": {
+                    "href": "#"
+                },
+                "textContent": "witam"
+            }]
         },
         {
             "nodeName": "li",
