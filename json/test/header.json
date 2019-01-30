@@ -6,36 +6,25 @@
         "role": "application"
     },
     "children": [{
-            "nodeName": "li",
-            "attributes": {},
-            "children": [{
-                "nodeName": "a",
-                "attributes": {
-                    "href": "#"
-                },
-                "textContent": "home"
-            }]
-        },
-        {
-            "nodeName": "li",
-            "attributes": {},
-            "children": [{
-                "nodeName": "a",
-                "attributes": {
-                    "href": "#"
-                },
-                "textContent": "about"
-            }]
-        }, {
-            "nodeName": "li",
-            "attributes": {},
-            "children": [{
-                "nodeName": "a",
-                "attributes": {
-                    "href": "#"
-                },
-                "textContent": "docs"
-            }]
-        }
-    ]
+        "nodeName": "li",
+        "attributes": {},
+        "children": [{
+            "nodeName": "a",
+            "attributes": {
+                "href": "#"
+            },
+            "textContent": "about"
+        }]
+    }, {
+        "nodeName": "li",
+        "attributes": {},
+        "children": [{
+            "nodeName": "a",
+            "attributes": {
+                "href": "#",
+                "class": "doc-navbar--docs"
+            },
+            "textContent": "docs"
+        }]
+    }]
 }]
