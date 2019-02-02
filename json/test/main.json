@@ -34,25 +34,49 @@
                             "nodeName": "i",
                             "attributes": {
                                 "class": "fas fa-spa"
-                            }
+                            },
+                            "children": [{
+                                "nodeName": "span",
+                                "textContent": "dwadw"
+                            }],
+                            "textContent": "fast"
+
                         },
                         {
                             "nodeName": "i",
                             "attributes": {
                                 "class": "fas fa-spa"
-                            }
+                            },
+                            "children": [{
+                                "nodeName": "span",
+                                "textContent": "dwadw"
+                            }],
+                            "textContent": "fuck"
+
                         },
                         {
                             "nodeName": "i",
                             "attributes": {
                                 "class": "fas fa-spa"
-                            }
+                            },
+                            "children": [{
+                                "nodeName": "span",
+                                "textContent": "dwadw"
+                            }],
+                            "textContent": "zium"
+
                         },
                         {
                             "nodeName": "i",
                             "attributes": {
                                 "class": "fas fa-spa"
-                            }
+                            },
+                            "children": [{
+                                "nodeName": "span",
+                                "textContent": "dwadw"
+                            }],
+                            "textContent": "wrum"
+
                         }
                     ]
                 }
