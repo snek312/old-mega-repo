@@ -1,32 +1,18 @@
 [{
     "nodeName": "header",
-    "className": "doc-main--header",
+    "className": "doc-main_header",
     "attributes": {
-        "class": "doc-main--header",
+        "class": "doc-main_header",
         "role": "application"
     },
     "children": [{
-        "nodeName": "div",
-        "attributes": {
-            "class": "doc-main--header"
+            "nodeName": "h1",
+            "textContent": "Lorem ipsum, dolor sit amet consectetur adipisicing elit."
+
         },
-        "children": [{
-            "nodeName": "a",
-            "attributes": {
-                "href": "#"
-            },
-            "textContent": "about"
-        }]
-    }, {
-        "nodeName": "li",
-        "attributes": {},
-        "children": [{
-            "nodeName": "a",
-            "attributes": {
-                "href": "#",
-                "class": "doc-navbar--docs"
-            },
-            "textContent": "docs"
-        }]
-    }]
+        {
+            "nodeName": "h2",
+            "textContent": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis et amet sunt rerum veritatis voluptates deserunt distinctio, quod consequuntur doloribus, at ea? "
+        }
+    ]
 }]
