@@ -28,7 +28,9 @@
             "children": [{
                 "nodeName": "a",
                 "attributes": {
-                    "href": "#"
+                    "href": "#",
+                    "class": "doc-link"
+
                 },
                 "textContent": "about"
             }]

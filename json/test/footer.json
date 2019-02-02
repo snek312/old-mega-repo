@@ -35,7 +35,8 @@
                     "children": [{
                         "nodeName": "a",
                         "attributes": {
-                            "href": "#"
+                            "href": "#",
+                            "class": "doc-link"
                         },
                         "textContent": "terms"
                     }]
@@ -45,7 +46,8 @@
                     "children": [{
                         "nodeName": "a",
                         "attributes": {
-                            "href": "#"
+                            "href": "#",
+                            "class": "doc-link"
                         },
                         "textContent": "contact"
                     }]
@@ -55,7 +57,8 @@
                     "children": [{
                         "nodeName": "a",
                         "attributes": {
-                            "href": "#"
+                            "href": "#",
+                            "class": "doc-link"
                         },
                         "textContent": "test"
                     }]
