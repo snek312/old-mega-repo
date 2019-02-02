@@ -13,6 +13,51 @@
         {
             "nodeName": "h2",
             "textContent": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis et amet sunt rerum veritatis voluptates deserunt distinctio, quod consequuntur doloribus, at ea? "
+        },
+        {
+            "nodeName": "div",
+            "attributes": {
+                "class": "doc-main_header__bottom"
+            },
+            "children": [{
+                    "nodeName": "div",
+                    "attributes": {
+                        "class": "doc-main_header__img"
+                    }
+                },
+                {
+                    "nodeName": "div",
+                    "attributes": {
+                        "class": "doc-main_header__footer"
+                    },
+                    "children": [{
+                            "nodeName": "i",
+                            "attributes": {
+                                "class": "fas fa-spa"
+                            }
+                        },
+                        {
+                            "nodeName": "i",
+                            "attributes": {
+                                "class": "fas fa-spa"
+                            }
+                        },
+                        {
+                            "nodeName": "i",
+                            "attributes": {
+                                "class": "fas fa-spa"
+                            }
+                        },
+                        {
+                            "nodeName": "i",
+                            "attributes": {
+                                "class": "fas fa-spa"
+                            }
+                        }
+                    ]
+                }
+            ]
+
         }
     ]
 }]
