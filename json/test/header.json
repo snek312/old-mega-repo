@@ -12,8 +12,8 @@
 
         }, {
             "nodeName": "span",
+            "attributes": {},
             "textContent": "cactus.js"
-
         }]
     },
     {
