@@ -23,7 +23,14 @@
                     "nodeName": "div",
                     "attributes": {
                         "class": "doc-main_header__img"
-                    }
+                    },
+                    "children": [{
+                        "nodeName": "img",
+                        "attributes": {
+                            "src": "img/home.svg",
+                            "alt": "home"
+                        }
+                    }]
                 },
                 {
                     "nodeName": "div",
@@ -36,13 +43,14 @@
                                 "class": "test"
                             },
                             "children": [{
-                                "nodeName": "i",
+                                "nodeName": "img",
                                 "attributes": {
-                                    "class": "fas fa-spa"
+                                    "src": "img/data-sharing.svg",
+                                    "alt": "database"
                                 }
                             }, {
                                 "nodeName": "h4",
-                                "textContent": "dwadw"
+                                "textContent": "json"
                             }, {
                                 "nodeName": "span",
                                 "textContent": "dwadw"
@@ -54,13 +62,14 @@
                                 "class": "test"
                             },
                             "children": [{
-                                "nodeName": "i",
+                                "nodeName": "img",
                                 "attributes": {
-                                    "class": "fas fa-spa"
+                                    "src": "img/speed.svg",
+                                    "alt": "speed"
                                 }
                             }, {
                                 "nodeName": "h4",
-                                "textContent": "dwadw"
+                                "textContent": "fast"
                             }, {
                                 "nodeName": "span",
                                 "textContent": "dwadw"
@@ -72,13 +81,14 @@
                                 "class": "test"
                             },
                             "children": [{
-                                "nodeName": "i",
+                                "nodeName": "img",
                                 "attributes": {
-                                    "class": "fas fa-spa"
+                                    "src": "img/coding.svg",
+                                    "alt": "coding"
                                 }
                             }, {
                                 "nodeName": "h4",
-                                "textContent": "dwadw"
+                                "textContent": "lightweight"
                             }, {
                                 "nodeName": "span",
                                 "textContent": "dwadw"
@@ -90,13 +100,14 @@
                                 "class": "test"
                             },
                             "children": [{
-                                "nodeName": "i",
+                                "nodeName": "img",
                                 "attributes": {
-                                    "class": "fas fa-spa"
+                                    "src": "img/worldwide.svg",
+                                    "alt": "numberuno"
                                 }
                             }, {
                                 "nodeName": "h4",
-                                "textContent": "dwadw"
+                                "textContent": "reliable"
                             }, {
                                 "nodeName": "span",
                                 "textContent": "dwadw"
