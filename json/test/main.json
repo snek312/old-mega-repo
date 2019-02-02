@@ -31,52 +31,76 @@
                         "class": "doc-main_header__footer"
                     },
                     "children": [{
-                            "nodeName": "i",
+                            "nodeName": "div",
                             "attributes": {
-                                "class": "fas fa-spa"
+                                "class": "test"
                             },
                             "children": [{
+                                "nodeName": "i",
+                                "attributes": {
+                                    "class": "fas fa-spa"
+                                }
+                            }, {
+                                "nodeName": "h4",
+                                "textContent": "dwadw"
+                            }, {
                                 "nodeName": "span",
                                 "textContent": "dwadw"
-                            }],
-                            "textContent": "fast"
-
+                            }]
                         },
                         {
-                            "nodeName": "i",
+                            "nodeName": "div",
                             "attributes": {
-                                "class": "fas fa-spa"
+                                "class": "test"
                             },
                             "children": [{
+                                "nodeName": "i",
+                                "attributes": {
+                                    "class": "fas fa-spa"
+                                }
+                            }, {
+                                "nodeName": "h4",
+                                "textContent": "dwadw"
+                            }, {
                                 "nodeName": "span",
                                 "textContent": "dwadw"
-                            }],
-                            "textContent": "fuck"
-
+                            }]
                         },
                         {
-                            "nodeName": "i",
+                            "nodeName": "div",
                             "attributes": {
-                                "class": "fas fa-spa"
+                                "class": "test"
                             },
                             "children": [{
+                                "nodeName": "i",
+                                "attributes": {
+                                    "class": "fas fa-spa"
+                                }
+                            }, {
+                                "nodeName": "h4",
+                                "textContent": "dwadw"
+                            }, {
                                 "nodeName": "span",
                                 "textContent": "dwadw"
-                            }],
-                            "textContent": "zium"
-
+                            }]
                         },
                         {
-                            "nodeName": "i",
+                            "nodeName": "div",
                             "attributes": {
-                                "class": "fas fa-spa"
+                                "class": "test"
                             },
                             "children": [{
+                                "nodeName": "i",
+                                "attributes": {
+                                    "class": "fas fa-spa"
+                                }
+                            }, {
+                                "nodeName": "h4",
+                                "textContent": "dwadw"
+                            }, {
                                 "nodeName": "span",
                                 "textContent": "dwadw"
-                            }],
-                            "textContent": "wrum"
-
+                            }]
                         }
                     ]
                 }
