@@ -17,11 +17,15 @@
         }]
     }, {
         "nodeName": "div",
-        "className": "doc-footer_",
+        "className": "doc-footer_right",
         "attributes": {
-            "class": "doc-footer_"
+            "class": "doc-footer_right"
         },
         "children": [{
+            "nodeName": "span",
+            "attributes": {},
+            "textContent": "cactus.js &copy; 2019"
+        }, {
             "nodeName": "ul",
             "attributes": {
                 "class": "doc-footer__list"
@@ -57,10 +61,6 @@
                     }]
                 }
             ]
-        }, {
-            "nodeName": "span",
-            "attributes": {},
-            "textContent": "cactus.js"
         }]
     }
 
