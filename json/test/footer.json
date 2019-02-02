@@ -1,18 +1,67 @@
 [{
-    "nodeName": "div",
-    "className": "logo black",
-    "attributes": {
-        "class": "logo black"
-    },
-    "children": [{
-        "nodeName": "i",
+        "nodeName": "div",
+        "className": "logo black",
         "attributes": {
-            "class": "fas fa-spa"
-        }
+            "class": "logo black"
+        },
+        "children": [{
+            "nodeName": "i",
+            "attributes": {
+                "class": "fas fa-spa"
+            }
 
+        }, {
+            "nodeName": "span",
+            "attributes": {},
+            "textContent": "cactus.js"
+        }]
     }, {
-        "nodeName": "span",
-        "attributes": {},
-        "textContent": "cactus.js"
-    }]
-}]
+        "nodeName": "div",
+        "className": "doc-footer_",
+        "attributes": {
+            "class": "doc-footer_"
+        },
+        "children": [{
+            "nodeName": "ul",
+            "attributes": {
+                "class": "doc-footer__list"
+            },
+            "children": [{
+                    "nodeName": "li",
+                    "children": [{
+                        "nodeName": "a",
+                        "attributes": {
+                            "href": "#"
+                        },
+                        "textContent": "terms"
+                    }]
+                },
+                {
+                    "nodeName": "li",
+                    "children": [{
+                        "nodeName": "a",
+                        "attributes": {
+                            "href": "#"
+                        },
+                        "textContent": "contact"
+                    }]
+                },
+                {
+                    "nodeName": "li",
+                    "children": [{
+                        "nodeName": "a",
+                        "attributes": {
+                            "href": "#"
+                        },
+                        "textContent": "test"
+                    }]
+                }
+            ]
+        }, {
+            "nodeName": "span",
+            "attributes": {},
+            "textContent": "cactus.js"
+        }]
+    }
+
+]
