@@ -25,12 +25,18 @@
                         "class": "doc-main_header__img"
                     },
                     "children": [{
-                        "nodeName": "img",
-                        "attributes": {
-                            "src": "img/home.svg",
-                            "alt": "home"
+                            "nodeName": "img",
+                            "attributes": {
+                                "src": "img/picture.svg",
+                                "alt": "home"
+                            }
+                        },
+                        {
+                            "nodeName": "span",
+                            "textContent": "Perspiciatis et amet sunt rerum veritatis voluptates deserunt distinctio, quod consequuntur doloribus, at ea? "
+
                         }
-                    }]
+                    ]
                 },
                 {
                     "nodeName": "div",
@@ -53,7 +59,7 @@
                                 "textContent": "json"
                             }, {
                                 "nodeName": "span",
-                                "textContent": "dwadw"
+                                "textContent": "Ullam animi eligendi asperiores"
                             }]
                         },
                         {
@@ -72,7 +78,7 @@
                                 "textContent": "fast"
                             }, {
                                 "nodeName": "span",
-                                "textContent": "dwadw"
+                                "textContent": "Laborum ullam numquam, architecto eius molestiae animi eligendi asperiores"
                             }]
                         },
                         {
@@ -91,7 +97,7 @@
                                 "textContent": "lightweight"
                             }, {
                                 "nodeName": "span",
-                                "textContent": "dwadw"
+                                "textContent": "Laborum eligendi asperiores"
                             }]
                         },
                         {
@@ -110,7 +116,7 @@
                                 "textContent": "reliable"
                             }, {
                                 "nodeName": "span",
-                                "textContent": "dwadw"
+                                "textContent": "Laborum ullam numquam, architecto asperiores"
                             }]
                         }
                     ]
