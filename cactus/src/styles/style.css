@@ -232,6 +232,11 @@ body {
     justify-content: center;
 }
 
+.section-alt {
+    background: #0B0E1A;
+    color: #eee;
+}
+
 .doc-main_wrapper {
     width: 70%;
     display: flex;

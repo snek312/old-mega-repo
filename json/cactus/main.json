@@ -160,5 +160,40 @@
                 }]
             }]
         }]
+    },
+    {
+        "nodeName": "section",
+        "className": "doc-main_section section-alt",
+        "attributes": {
+            "class": "doc-main_section section-alt",
+            "role": "application"
+        },
+        "children": [{
+            "nodeName": "div",
+            "className": "doc-main_wrapper",
+            "attributes": {
+                "class": "doc-main_wrapper",
+                "role": "application"
+            },
+            "children": [{
+                "nodeName": "div",
+                "attributes": {
+                    "class": "main__section-wrapper"
+                },
+                "children": [{
+                    "nodeName": "p",
+                    "textContent": "Laborum ullam numquam, architecto asperiores"
+                }, {
+                    "nodeName": "p",
+                    "textContent": "Laborum ullam numquam, architecto asperiores"
+                }]
+            }, {
+                "nodeName": "img",
+                "attributes": {
+                    "src": "img/home.svg",
+                    "alt": "home"
+                }
+            }]
+        }]
     }
 ]
