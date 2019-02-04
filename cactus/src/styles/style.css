@@ -226,6 +226,12 @@ body {
 
 .doc-main_section {
     width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.doc-main_wrapper {
+    width: 70%;
     background: #eee;
     color: #0B0E1A;
     display: flex;
@@ -233,10 +239,12 @@ body {
 }
 
 .doc-main_section img {
+    margin: 0 100px;
     width: 200px;
 }
 
 .main__section-wrapper {
+    margin: 0 100px;
     display: flex;
     flex-direction: column;
     justify-content: center;

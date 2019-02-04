@@ -134,22 +134,30 @@
             "role": "application"
         },
         "children": [{
-            "nodeName": "img",
-            "attributes": {
-                "src": "img/home.svg",
-                "alt": "home"
-            }
-        }, {
             "nodeName": "div",
+            "className": "doc-main_wrapper",
             "attributes": {
-                "class": "main__section-wrapper"
+                "class": "doc-main_wrapper",
+                "role": "application"
             },
             "children": [{
-                "nodeName": "p",
-                "textContent": "Laborum ullam numquam, architecto asperiores"
+                "nodeName": "img",
+                "attributes": {
+                    "src": "img/home.svg",
+                    "alt": "home"
+                }
             }, {
-                "nodeName": "p",
-                "textContent": "Laborum ullam numquam, architecto asperiores"
+                "nodeName": "div",
+                "attributes": {
+                    "class": "main__section-wrapper"
+                },
+                "children": [{
+                    "nodeName": "p",
+                    "textContent": "Laborum ullam numquam, architecto asperiores"
+                }, {
+                    "nodeName": "p",
+                    "textContent": "Laborum ullam numquam, architecto asperiores"
+                }]
             }]
         }]
     }
