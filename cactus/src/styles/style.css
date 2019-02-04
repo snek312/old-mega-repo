@@ -225,6 +225,7 @@ body {
 }
 
 .doc-main_section {
+    width: 100%;
     background: #eee;
     color: #0B0E1A;
     display: flex;
