@@ -1,0 +1,156 @@
+[{
+        "nodeName": "header",
+        "className": "doc-main_header",
+        "attributes": {
+            "class": "doc-main_header",
+            "role": "application"
+        },
+        "children": [{
+                "nodeName": "h1",
+                "textContent": "Lorem ipsum, dolor sit amet consectetur adipisicing elit."
+
+            },
+            {
+                "nodeName": "h2",
+                "textContent": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis et amet sunt rerum veritatis voluptates deserunt distinctio, quod consequuntur doloribus, at ea? "
+            },
+            {
+                "nodeName": "div",
+                "attributes": {
+                    "class": "doc-main_header__bottom"
+                },
+                "children": [{
+                        "nodeName": "div",
+                        "attributes": {
+                            "class": "doc-main_header__img"
+                        },
+                        "children": [{
+                                "nodeName": "img",
+                                "attributes": {
+                                    "src": "img/picture.svg",
+                                    "alt": "home"
+                                }
+                            },
+                            {
+                                "nodeName": "span",
+                                "textContent": "Perspiciatis et amet sunt rerum veritatis voluptates deserunt distinctio, quod consequuntur doloribus, at ea? "
+
+                            }
+                        ]
+                    },
+                    {
+                        "nodeName": "div",
+                        "attributes": {
+                            "class": "doc-main_header__footer"
+                        },
+                        "children": [{
+                                "nodeName": "div",
+                                "attributes": {
+                                    "class": "test"
+                                },
+                                "children": [{
+                                    "nodeName": "img",
+                                    "attributes": {
+                                        "src": "img/data-sharing.svg",
+                                        "alt": "database"
+                                    }
+                                }, {
+                                    "nodeName": "h4",
+                                    "textContent": "json"
+                                }, {
+                                    "nodeName": "span",
+                                    "textContent": "Ullam animi eligendi asperiores"
+                                }]
+                            },
+                            {
+                                "nodeName": "div",
+                                "attributes": {
+                                    "class": "test"
+                                },
+                                "children": [{
+                                    "nodeName": "img",
+                                    "attributes": {
+                                        "src": "img/speed.svg",
+                                        "alt": "speed"
+                                    }
+                                }, {
+                                    "nodeName": "h4",
+                                    "textContent": "fast"
+                                }, {
+                                    "nodeName": "span",
+                                    "textContent": "Laborum ullam numquam, architecto eius molestiae animi eligendi asperiores"
+                                }]
+                            },
+                            {
+                                "nodeName": "div",
+                                "attributes": {
+                                    "class": "test"
+                                },
+                                "children": [{
+                                    "nodeName": "img",
+                                    "attributes": {
+                                        "src": "img/coding.svg",
+                                        "alt": "coding"
+                                    }
+                                }, {
+                                    "nodeName": "h4",
+                                    "textContent": "lightweight"
+                                }, {
+                                    "nodeName": "span",
+                                    "textContent": "Laborum eligendi asperiores"
+                                }]
+                            },
+                            {
+                                "nodeName": "div",
+                                "attributes": {
+                                    "class": "test"
+                                },
+                                "children": [{
+                                    "nodeName": "img",
+                                    "attributes": {
+                                        "src": "img/worldwide.svg",
+                                        "alt": "numberuno"
+                                    }
+                                }, {
+                                    "nodeName": "h4",
+                                    "textContent": "reliable"
+                                }, {
+                                    "nodeName": "span",
+                                    "textContent": "Laborum ullam numquam, architecto asperiores"
+                                }]
+                            }
+                        ]
+                    }
+                ]
+
+            }
+        ]
+    },
+    {
+        "nodeName": "section",
+        "className": "doc-main_section",
+        "attributes": {
+            "class": "doc-main_section",
+            "role": "application"
+        },
+        "children": [{
+            "nodeName": "img",
+            "attributes": {
+                "src": "img/home.svg",
+                "alt": "home"
+            }
+        }, {
+            "nodeName": "div",
+            "attributes": {
+                "class": "main__section-wrapper"
+            },
+            "children": [{
+                "nodeName": "p",
+                "textContent": "Laborum ullam numquam, architecto asperiores"
+            }, {
+                "nodeName": "p",
+                "textContent": "Laborum ullam numquam, architecto asperiores"
+            }]
+        }]
+    }
+]
