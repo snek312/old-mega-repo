@@ -27,7 +27,7 @@
                         "children": [{
                                 "nodeName": "img",
                                 "attributes": {
-                                    "src": "img/picture.svg",
+                                    "src": "img/pic.png",
                                     "alt": "home"
                                 }
                             },
