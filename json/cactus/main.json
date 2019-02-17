@@ -51,7 +51,7 @@
                                 "children": [{
                                     "nodeName": "ion-icon",
                                     "attributes": {
-                                        "name": "ios-cog"
+                                        "name": "ios-paper"
                                     }
                                 }, {
                                     "nodeName": "h4",
@@ -105,7 +105,7 @@
                                 "children": [{
                                     "nodeName": "ion-icon",
                                     "attributes": {
-                                        "name": "ios-thumbs-up"
+                                        "name": "ios-done-all"
                                     }
                                 }, {
                                     "nodeName": "h4",
