@@ -70,7 +70,7 @@
                                 "children": [{
                                     "nodeName": "img",
                                     "attributes": {
-                                        "src": "img/speed.svg",
+                                        "src": "img/png/speed.png",
                                         "alt": "speed"
                                     }
                                 }, {
