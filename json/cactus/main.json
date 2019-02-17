@@ -68,10 +68,9 @@
                                     "class": "test"
                                 },
                                 "children": [{
-                                    "nodeName": "img",
+                                    "nodeName": "ion-icon",
                                     "attributes": {
-                                        "src": "img/png/speed.png",
-                                        "alt": "speed"
+                                        "name": "speedometer"
                                     }
                                 }, {
                                     "nodeName": "h4",
