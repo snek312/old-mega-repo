@@ -49,10 +49,9 @@
                                     "class": "test"
                                 },
                                 "children": [{
-                                    "nodeName": "img",
+                                    "nodeName": "ion-icon",
                                     "attributes": {
-                                        "src": "img/data-sharing.svg",
-                                        "alt": "database"
+                                        "name": "ios-cog"
                                     }
                                 }, {
                                     "nodeName": "h4",
@@ -70,7 +69,7 @@
                                 "children": [{
                                     "nodeName": "ion-icon",
                                     "attributes": {
-                                        "name": "speedometer"
+                                        "name": "ios-speedometer"
                                     }
                                 }, {
                                     "nodeName": "h4",
@@ -86,10 +85,9 @@
                                     "class": "test"
                                 },
                                 "children": [{
-                                    "nodeName": "img",
+                                    "nodeName": "ion-icon",
                                     "attributes": {
-                                        "src": "img/coding.svg",
-                                        "alt": "coding"
+                                        "name": "ios-leaf"
                                     }
                                 }, {
                                     "nodeName": "h4",
@@ -105,10 +103,9 @@
                                     "class": "test"
                                 },
                                 "children": [{
-                                    "nodeName": "img",
+                                    "nodeName": "ion-icon",
                                     "attributes": {
-                                        "src": "img/worldwide.svg",
-                                        "alt": "numberuno"
+                                        "name": "ios-thumbs-up"
                                     }
                                 }, {
                                     "nodeName": "h4",
