@@ -137,11 +137,21 @@
                 "role": "application"
             },
             "children": [{
-                "nodeName": "img",
+                "nodeName": "div",
                 "attributes": {
-                    "src": "img/home.svg",
-                    "alt": "home"
-                }
+                    "class": "main__section-wrapper"
+                },
+                "children": [{
+                    "nodeName": "ion-icon",
+                    "attributes": {
+                        "name": "ios-phone-portrait"
+                    }
+                }, {
+                    "nodeName": "ion-icon",
+                    "attributes": {
+                        "name": "ios-tablet-portrait"
+                    }
+                }]
             }, {
                 "nodeName": "div",
                 "attributes": {
@@ -184,10 +194,9 @@
                     "textContent": "Laborum ullam numquam, architecto asperiores"
                 }]
             }, {
-                "nodeName": "img",
+                "nodeName": "ion-icon",
                 "attributes": {
-                    "src": "img/home.svg",
-                    "alt": "home"
+                    "name": "ios-done-all"
                 }
             }]
         }]
