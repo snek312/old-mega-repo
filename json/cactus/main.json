@@ -139,7 +139,7 @@
             "children": [{
                 "nodeName": "div",
                 "attributes": {
-                    "class": "main__section-wrapper"
+                    "class": "main__section-wrapper_icons"
                 },
                 "children": [{
                     "nodeName": "ion-icon",
