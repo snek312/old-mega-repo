@@ -92,7 +92,27 @@
         "titleBar.inactiveForeground": "#6b717d",
         "textLink.foreground": "#61afef"
     },
-    "editor.fontFamily": "Menlo, Monaco, 'Courier New',monospace",
+    "editor.tokenColorCustomizations": {
+        "[Monokai Dimmed]": {
+            
+            "numbers": "#3e7fc9",
+            "keywords":
+            {
+                "fontStyle": "italic bold",
+
+            },
+            "types":
+            {
+                "fontStyle": "italic",
+            },
+            "comments":
+            {
+                "fontStyle": "italic",
+            }
+            
+        }
+    },
+    "editor.fontFamily": "'Roboto Mono' ,Menlo, Monaco, 'Courier New',monospace",
     "terminal.integrated.fontFamily": "monospace",
     "editor.fontWeight": "400",
     "workbench.fontAliasing": "antialiased",
