@@ -57,7 +57,7 @@ button:focus {
     border-radius: 100%;
     background: #ccccccbe;
     font-weight: 700;
-    font-size: 2em;
+    font-size: 1.7em;
 }
 
 .button:hover {
@@ -68,6 +68,7 @@ button:focus {
 .firstWrapper {
     background: #ccc;
     margin: 10px;
+    margin-left: 20px;
     padding: 7px;
     border-radius: 5px;
     max-width: 400px;
@@ -113,7 +114,7 @@ button:focus {
     justify-content: center;
     align-items: center;
     font-weight: 700;
-    font-size: .5em;
+    font-size: .6em;
 
 
     background: #bbb;
