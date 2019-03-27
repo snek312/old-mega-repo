@@ -1,4 +1,4 @@
-
+console.log('v3')
 let
     scores = [0, 0],
     scoreRound = 0,
