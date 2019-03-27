@@ -1,4 +1,4 @@
-console.log('v3')
+console.log('v4')
 let
     scores = [0, 0],
     scoreRound = 0,
@@ -25,9 +25,9 @@ getElement('id-hold').addEventListener('click', () => {
 player0.querySelector('.playerScore').innerHTML = scores[0];
 player1.querySelector('.playerScore').innerHTML = scores[1];
 
-if (scores[0] >= 100) {
+if (scores[0] >= 10) {
     alert('Player 1 wins!')
-} else if (scores[1] >= 100) {
+} else if (scores[1] >= 10) {
     alert('Player 2 wins!')
 }
 
