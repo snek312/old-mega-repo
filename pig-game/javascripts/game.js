@@ -25,6 +25,11 @@ getElement('id-hold').addEventListener('click', () => {
 player0.querySelector('.playerScore').innerHTML = scores[0];
 player1.querySelector('.playerScore').innerHTML = scores[1];
 
+if (score[0] === 100) {
+    alert('Player 1 wins!')
+} else if (score[1] === 100) {
+    alert('Player 2 wins!')
+}
 
 function changePlayer() {
     if (player0.classList.contains('active')) {
