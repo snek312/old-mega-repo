@@ -1,0 +1,180 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    outline: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(#3e141466, #3e141466), url(../images/back.jpg);
+    background-size: cover;
+    background-position: center;
+    font-family: Lato;
+    font-weight: 300;
+    position: relative;
+    height: 100vh;
+    color: #555;
+}
+
+.mainWrapper {
+    box-shadow: 0px 0px 21px 0px #161616bf;
+    background: #eee;
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    height: 70vh;
+    flex-direction: row;
+}
+
+.player {
+    width: 100%;
+    padding: 40px 120px;
+    position: relative;
+}
+
+.playerName {
+    font-size: 40px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 100;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.playerScore {
+    text-align: center;
+    font-size: 80px;
+    font-weight: 100;
+    color: #EB4D4D;
+    margin-bottom: 130px;
+}
+
+.active {
+    background-color: #a8a8a823;
+}
+
+.active .playerName {
+    font-weight: 300;
+}
+
+.active .playerName::after {
+    content: "\2022";
+    font-size: 47px;
+    position: absolute;
+    color: #EB4D4D;
+    top: -7px;
+    right: 10px;
+}
+
+.currentWrapper {
+    background-color: #EB4D4D;
+    color: #fff;
+    width: 40%;
+    margin: 0 auto;
+    padding: 12px;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.currentTittle {
+    color: #555;
+    font-size: .7em;
+}
+
+.menu {
+    display: flex;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    flex-flow: column;
+    justify-content: space-between;
+    align-content: center;
+    z-index: 9999;
+}
+
+.menuTop {
+    margin-top: 70px;
+    margin-bottom: 20px;
+}
+
+.dice {
+    background-size: cover;
+    background-position: center;
+    height: 140px;
+    width: 140px;
+    background: #eee;
+    margin: 5px auto;
+    box-shadow: 0px 0px 63px 0px #c0c0c0bf;
+}
+
+.dice1 {
+    background-image: url(../images/dice-1.png);
+    background-size: cover;
+}
+
+.dice2 {
+    background-image: url(../images/dice-2.png);
+    background-size: cover;
+}
+
+.dice3 {
+    background-image: url(../images/dice-3.png);
+    background-size: cover;
+}
+
+.dice4 {
+    background-image: url(../images/dice-4.png);
+    background-size: cover;
+}
+
+.dice5 {
+    background-image: url(../images/dice-5.png);
+    background-size: cover;
+}
+
+.dice6 {
+    background-image: url(../images/dice-6.png);
+    background-size: cover;
+}
+
+i {
+    color: #EB4D4D;
+    display: inline-block;
+    margin-right: 15px;
+    font-size: 32px;
+    line-height: 1;
+    vertical-align: text-top;
+    margin-top: -4px;
+    transition: margin 0.3s;
+}
+
+.menuItem {
+    width: 200px;
+    color: #555;
+    background: none;
+    border: none;
+    font-family: Lato;
+    font-size: 20px;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-weight: 300;
+    transition: background-color 0.3s, color 0.3s;
+    padding: 7px;
+    border-radius: 10px;
+    z-index: 999;
+}
+
+.menuItem:hover {
+    background: #ffffffd5;
+}
+
+a {
+    color: #00B7FF;
+}
+
+/*# sourceMappingURL=style.css.map */
