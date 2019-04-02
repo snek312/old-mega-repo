@@ -20,12 +20,12 @@
                     "attributes": {
                         "class": "doc-footer_social"
                     },
-                    "children": {
+                    "children": [{
                         "nodeName": "i",
                         "attributes": {
                             "class": "fab fa-twitter"
                         }
-                    }
+                    }]
                 }
             }, {
                 "nodeName": "a",
@@ -37,12 +37,12 @@
                     "attributes": {
                         "class": "doc-footer_social"
                     },
-                    "children": {
+                    "children": [{
                         "nodeName": "i",
                         "attributes": {
                             "class": "fab fa-github-square"
                         }
-                    }
+                    }]
                 }
             }, {
                 "nodeName": "a",
@@ -54,12 +54,12 @@
                     "attributes": {
                         "class": "doc-footer_social"
                     },
-                    "children": {
+                    "children": [{
                         "nodeName": "i",
                         "attributes": {
                             "class": "fab fa-facebook"
                         }
-                    }
+                    }]
                 }
             }]
 
