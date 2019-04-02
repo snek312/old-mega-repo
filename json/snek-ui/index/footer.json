@@ -5,64 +5,62 @@
     },
     "children": [{
         "nodeName": "div",
+        "attributes": {
+            "class": "doc-flexbox doc-footer"
+        },
         "children": [{
-            "nodeName": "h4",
-            "textContent": "follow us"
-        }, {
-            "nodeName": "div",
+            "nodeName": "ul",
             "children": [{
-                "nodeName": "a",
-                "attributes": {
-                    "href": "https://twitter.com"
-                },
-                "children": {
-                    "nodeName": "div",
-                    "attributes": {
-                        "class": "doc-footer_social"
-                    },
-                    "children": [{
-                        "nodeName": "i",
-                        "attributes": {
-                            "class": "fab fa-twitter"
-                        }
-                    }]
-                }
+                "nodeName": "h4",
+                "textContent": "community"
             }, {
                 "nodeName": "a",
                 "attributes": {
-                    "href": "https://github.com/snek312/snek312.github.io"
+                    "href": "#"
                 },
-                "children": {
-                    "nodeName": "div",
-                    "attributes": {
-                        "class": "doc-footer_social"
-                    },
-                    "children": [{
-                        "nodeName": "i",
-                        "attributes": {
-                            "class": "fab fa-github-square"
-                        }
-                    }]
-                }
-            }, {
-                "nodeName": "a",
-                "attributes": {
-                    "href": "https://facebook.com"
-                },
-                "children": {
-                    "nodeName": "div",
-                    "attributes": {
-                        "class": "doc-footer_social"
-                    },
-                    "children": [{
-                        "nodeName": "i",
-                        "attributes": {
-                            "class": "fab fa-facebook"
-                        }
-                    }]
-                }
-            }]
+                "textContent": "GitHub repo"
 
+            }, {
+                "nodeName": "a",
+                "attributes": {
+                    "href": "#"
+                },
+                "textContent": "0.1.0 docs"
+
+            }]
+        }, {
+            "nodeName": "ul",
+            "children": [{
+                "nodeName": "h4",
+                "textContent": "community"
+            }, {
+                "nodeName": "a",
+                "attributes": {
+                    "href": "#"
+                },
+                "textContent": "terms"
+
+            }, {
+                "nodeName": "a",
+                "attributes": {
+                    "href": "#"
+                },
+                "textContent": "privacy"
+
+            }, {
+                "nodeName": "a",
+                "attributes": {
+                    "href": "#"
+                },
+                "textContent": "contact"
+
+            }, {
+                "nodeName": "a",
+                "attributes": {
+                    "href": "#"
+                },
+                "textContent": "about"
+            }]
         }]
     }]
 }, {
