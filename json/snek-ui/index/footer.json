@@ -10,7 +10,7 @@
         }
     }, {
         "nodeName": "span",
-        "chilren": [{
+        "children": [{
             "nodeName": "span",
             "textContent": "Icons made by",
             "attributes": {
