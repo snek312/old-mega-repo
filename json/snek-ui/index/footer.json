@@ -5,11 +5,17 @@
     },
     "children": [{
         "nodeName": "div",
+        "attributes": {
+            "class": "doc-flexbox doc-footer"
+        },
         "children": [{
             "nodeName": "h4",
             "textContent": "follow us"
         }, {
             "nodeName": "div",
+            "attributes": {
+                "class": "doc-flexbox doc-footer"
+            },
             "children": [{
                 "nodeName": "a",
                 "attributes": {
