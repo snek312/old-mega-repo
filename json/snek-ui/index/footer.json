@@ -133,7 +133,7 @@
 }, {
     "nodeName": "div",
     "attributes": {
-        "class": "doc-flexbox "
+        "class": "doc-flexbox doc-footer--bottom"
     },
     "children": [{
         "nodeName": "div",
