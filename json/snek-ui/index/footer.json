@@ -1,6 +1,73 @@
 [{
     "nodeName": "div",
     "attributes": {
+        "class": "doc-flexbox doc-footer"
+    },
+    "children": [{
+        "nodeName": "div",
+        "children": [{
+            "nodeName": "h4",
+            "textContent": "follow us"
+        }, {
+            "nodeName": "div",
+            "children": [{
+                "nodeName": "a",
+                "attributes": {
+                    "href": "https://twitter.com"
+                },
+                "children": {
+                    "nodeName": "div",
+                    "attributes": {
+                        "class": "doc-footer_social"
+                    },
+                    "children": [{
+                        "nodeName": "i",
+                        "attributes": {
+                            "class": "fab fa-twitter"
+                        }
+                    }]
+                }
+            }, {
+                "nodeName": "a",
+                "attributes": {
+                    "href": "https://github.com/snek312/snek312.github.io"
+                },
+                "children": {
+                    "nodeName": "div",
+                    "attributes": {
+                        "class": "doc-footer_social"
+                    },
+                    "children": [{
+                        "nodeName": "i",
+                        "attributes": {
+                            "class": "fab fa-github-square"
+                        }
+                    }]
+                }
+            }, {
+                "nodeName": "a",
+                "attributes": {
+                    "href": "https://facebook.com"
+                },
+                "children": {
+                    "nodeName": "div",
+                    "attributes": {
+                        "class": "doc-footer_social"
+                    },
+                    "children": [{
+                        "nodeName": "i",
+                        "attributes": {
+                            "class": "fab fa-facebook"
+                        }
+                    }]
+                }
+            }]
+
+        }]
+    }]
+}, {
+    "nodeName": "div",
+    "attributes": {
         "class": "doc-flexbox "
     },
     "children": [{
