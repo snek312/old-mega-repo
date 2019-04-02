@@ -5,6 +5,12 @@
     },
     "children": [{
         "nodeName": "div",
+        "children": [{
+            "nodeName": "h4",
+            "textContent": "follow us"
+        }]
+    }, {
+        "nodeName": "div",
         "attributes": {
             "class": "doc-flexbox doc-footer"
         },
