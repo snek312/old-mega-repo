@@ -93,7 +93,7 @@
             "nodeName": "ul",
             "children": [{
                 "nodeName": "h4",
-                "textContent": "community"
+                "textContent": "page"
             }, {
                 "nodeName": "a",
                 "attributes": {
