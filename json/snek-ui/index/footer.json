@@ -6,7 +6,7 @@
     "children": [{
         "nodeName": "div",
         "attributes": {
-            "class": "doc-flexbox doc-footer"
+            "class": "doc-flexbox doc-footer--left"
         },
         "children": [{
             "nodeName": "h4",
@@ -14,7 +14,7 @@
         }, {
             "nodeName": "div",
             "attributes": {
-                "class": "doc-flexbox doc-footer"
+                "class": "doc-flexbox doc-footer--left"
             },
             "children": [{
                 "nodeName": "a",
