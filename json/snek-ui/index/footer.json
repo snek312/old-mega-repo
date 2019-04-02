@@ -1,6 +1,132 @@
 [{
     "nodeName": "div",
     "attributes": {
+        "class": "doc-flexbox doc-footer"
+    },
+    "children": [{
+        "nodeName": "div",
+        "children": [{
+            "nodeName": "h4",
+            "textContent": "follow us"
+        }, {
+            "nodeName": "div",
+            "children": [{
+                "nodeName": "a",
+                "attributes": {
+                    "href": "https://twitter.com"
+                },
+                "children": {
+                    "nodeName": "div",
+                    "attributes": {
+                        "class": "doc-footer_social"
+                    },
+                    "children": {
+                        "nodeName": "i",
+                        "attributes": {
+                            "class": "fab fa-twitter"
+                        }
+                    }
+                }
+            }, {
+                "nodeName": "a",
+                "attributes": {
+                    "href": "https://github.com/snek312/snek312.github.io"
+                },
+                "children": {
+                    "nodeName": "div",
+                    "attributes": {
+                        "class": "doc-footer_social"
+                    },
+                    "children": {
+                        "nodeName": "i",
+                        "attributes": {
+                            "class": "fab fa-github-square"
+                        }
+                    }
+                }
+            }, {
+                "nodeName": "a",
+                "attributes": {
+                    "href": "https://facebook.com"
+                },
+                "children": {
+                    "nodeName": "div",
+                    "attributes": {
+                        "class": "doc-footer_social"
+                    },
+                    "children": {
+                        "nodeName": "i",
+                        "attributes": {
+                            "class": "fab fa-facebook"
+                        }
+                    }
+                }
+            }]
+
+        }]
+    }, {
+        "nodeName": "div",
+        "attributes": {
+            "class": "doc-flexbox doc-footer"
+        },
+        "children": [{
+            "nodeName": "ul",
+            "children": [{
+                "nodeName": "h4",
+                "textContent": "community"
+            }, {
+                "nodeName": "a",
+                "attributes": {
+                    "href": "#"
+                },
+                "textContent": "GitHub repo"
+
+            }, {
+                "nodeName": "a",
+                "attributes": {
+                    "href": "#"
+                },
+                "textContent": "0.1.0 docs"
+
+            }]
+        }, {
+            "nodeName": "ul",
+            "children": [{
+                "nodeName": "h4",
+                "textContent": "community"
+            }, {
+                "nodeName": "a",
+                "attributes": {
+                    "href": "#"
+                },
+                "textContent": "terms"
+
+            }, {
+                "nodeName": "a",
+                "attributes": {
+                    "href": "#"
+                },
+                "textContent": "privacy"
+
+            }, {
+                "nodeName": "a",
+                "attributes": {
+                    "href": "#"
+                },
+                "textContent": "contact"
+
+            }, {
+                "nodeName": "a",
+                "attributes": {
+                    "href": "#"
+                },
+                "textContent": "about"
+            }]
+        }]
+    }]
+}, {
+    "nodeName": "div",
+    "attributes": {
         "class": "doc-flexbox "
     },
     "children": [{
@@ -12,32 +138,35 @@
         "nodeName": "span",
         "children": [{
             "nodeName": "span",
-            "textContent": "Icons made by",
-            "attributes": {
-                "title": "Freepik"
-            }
+            "textContent": "Icons made by"
+
         }, {
             "nodeName": "a",
             "attributes": {
                 "href": "http://www.freepik.com",
-                "title": "Flaticon"
+                "title": "Freepik"
             },
             "textContent": "Freepik"
         }, {
             "nodeName": "span",
-            "textContent": "from",
-            "attributes": {
-                "title": "Creative Commons BY 3.0",
-                "target": "_blank"
-            }
+            "textContent": "from"
         }, {
             "nodeName": "a",
+            "attributes": {
+                "href": "https://www.flaticon.com/",
+                "title": "Flaticon"
+            },
             "textContent": "www.flaticon.com"
         }, {
             "nodeName": "span",
             "textContent": "is licensed by"
         }, {
             "nodeName": "a",
+            "attributes": {
+                "href": "http://creativecommons.org/licenses/by/3.0/",
+                "title": "Creative Commons BY 3.0",
+                "target": "_blank"
+            },
             "textContent": "CC 3.0 BY"
         }]
     }]
