@@ -35,9 +35,9 @@
 
     function checkWinner() {
         if (scores[0] > 10) {
-            showWinner('player 1!')
+            showWinner('Player 1')
         } else if (scores[1] > 10) {
-            showWinner('player 2!')
+            showWinner('Player 2')
         }
     }
 
@@ -107,7 +107,7 @@
             `,
             tplButton = `
                 <div>
-                    <i class="ion-ios-plus-outline"></i>
+                    <ion-icon name="add"></ion-icon>
                     New game
                 </div>
                 

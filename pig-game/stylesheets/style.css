@@ -156,6 +156,9 @@ i {
 .menuItem {
     width: 200px;
     color: #555;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background: none;
     border: none;
     font-family: Lato;
@@ -203,7 +206,7 @@ a {
 }
 
 .winnerItem {
-    padding: 30px 49px;
+    padding: 30px 28px;
     background: #eee;
     color: #555;
     border: none;
@@ -216,8 +219,21 @@ a {
 
 }
 
+.winnerItem>div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .winnerItem:hover {
     background: #ccc;
+}
+
+ion-icon {
+    border: #555 1px solid;
+    padding: 7px;
+    border-radius: 50%;
+    margin-right: 7px;
 }
 
 /*# sourceMappingURL=style.css.map */
