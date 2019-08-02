@@ -26,11 +26,6 @@
         checkWinner();
     })
 
-    // player0.querySelector('.playerScore').innerHTML = scores[0];
-    // player1.querySelector('.playerScore').innerHTML = scores[1];
-
-
-
     ////////////
 
     function checkWinner() {
